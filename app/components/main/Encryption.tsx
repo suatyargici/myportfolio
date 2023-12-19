@@ -17,7 +17,7 @@ const Encryption = () => {
         </motion.div>
       </div>
 
-      <div className="absolute z-[20] flex h-auto w-auto translate-y-[-50px] flex-col items-center justify-center">
+      <div className="absolute z-[20] flex h-auto w-auto  flex-col items-center justify-center">
         <div className="group flex h-auto w-auto cursor-pointer flex-col items-center">
           <Image
             src="/LockTop.png"
@@ -35,8 +35,8 @@ const Encryption = () => {
           />
         </div>
 
-        <div className="Welcome-box brder z-[20] my-[20px] border-[#7042f88b] px-[15px] py-[4px] opacity-[0.9]">
-          <h1 className="Welcome-text text-[12px]">Encryption</h1>
+        <div className="Welcome-box border z-[20] my-[20px] border-[#7042f88b] px-[15px] py-[4px] opacity-[0.9]">
+          <h1 className=" text-[12px]">Encryption</h1>
         </div>
       </div>
       <div className="absolute bottom-[10px] z-[20] px-[5px]">
@@ -54,6 +54,7 @@ const Encryption = () => {
           preload="false"
           className="h-auto w-full"
           src="/encryption.webm"
+
         />
       </div>
     </div>

@@ -4,6 +4,8 @@ import Hero from "./components/main/Hero";
 import Skills from "./components/main/Skills";
 import Encryption from "./components/main/Encryption";
 import Projects from "./components/main/Projects";
+import ContactMe from "./components/main/Contact";
+import Contact from "./components/main/Contact";
 
 export default function Home() {
   return (

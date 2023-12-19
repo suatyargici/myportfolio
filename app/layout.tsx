@@ -9,8 +9,14 @@ import Footer from "./components/main/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Space Portfolio",
-  description: "This is my portfolio",
+  title: "Suat YARGICI",
+
+  description: "my portfolio",
+  icons: {
+    icon: ["/faviocon.ico?v=4"],
+    apple: ["/apple-touch-icon?v=4"],
+    shortcut: ["/apple-touch-icon.png"],
+  },
 };
 
 export default function RootLayout({
@@ -26,7 +32,7 @@ export default function RootLayout({
         <StarsCanvas />
         <Navbar />
         {children}
-        <Footer />
+        <Footer/>
       </body>
     </html>
   );

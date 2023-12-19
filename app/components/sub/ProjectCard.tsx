@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 interface Props {
-  src: string;
+  src: any;
   title: string;
   description: string;
 }

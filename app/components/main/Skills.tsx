@@ -20,7 +20,7 @@ import SkillText from "../sub/SkillText";
         <SkillText />
   
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-          {Skill_data.map((image:any, index:any) => (
+          {/* {Skill_data.map((image:any, index:any) => (
             <SkillDataProvider
               key={index}
               src={image.Image}
@@ -28,7 +28,7 @@ import SkillText from "../sub/SkillText";
               height={image.height}
               index={index}
             />
-          ))}
+          ))} */}
         </div>
   
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
@@ -65,7 +65,7 @@ import SkillText from "../sub/SkillText";
           ))}
         </div>
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-          {Other_skill.map((image, index) => (
+          {/* {Other_skill.map((image, index) => (
             <SkillDataProvider
               key={index}
               src={image.Image}
@@ -73,7 +73,7 @@ import SkillText from "../sub/SkillText";
               height={image.height}
               index={index}
             />
-          ))}
+          ))} */}
         </div>
   
         <div className="w-full h-full absolute">

@@ -45,7 +45,7 @@ const Encryption = () => {
         </div>
       </div>
 
-      <div className="absolute flex w-full items-start justify-center">
+      <div className=" flex w-full items-start justify-center">
         <video
           loop
           muted
